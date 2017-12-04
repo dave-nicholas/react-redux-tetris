@@ -1,0 +1,178 @@
+.splashscreen {
+    margin-left: 0em;
+    transform: scale(2, 2);
+}
+
+.t1 {
+    position: absolute;
+}
+
+.i {
+    position: absolute;
+    margin-top: 2em;
+    margin-left: -1em;
+    animation-name: spini;
+    animation-duration: 4000ms;
+    animation-delay: 3000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.i .p1 {
+    background-color: #438187;
+    width: 1em;
+    height: 4em;
+}
+
+.z {
+    position: absolute;
+    margin-top: 5.5em;
+    margin-left: 5em;
+    transform: rotate(90deg);
+    animation-name: spinz;
+    animation-duration: 4000ms;
+    animation-delay: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.z .p1 {
+    background-color: #AA4942;
+    width: 1em;
+    height: 2em;
+    top: .5em;
+    right: .5em;
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+.z .p2 {
+    background-color: #AA4942;
+    width: 1em;
+    height: 2em;
+    top: -.5em;
+    right: -.5em;
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+.l {
+    position: absolute;
+    margin-top: 5em;
+    margin-left: -1em;
+    animation-name: spinl;
+    animation-duration: 4000ms;
+    animation-delay: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.l .p1 {
+    background-color: #F5C443;
+    width: 1em;
+    height: 3em;
+    top: .5em;
+    right: .5em;
+    position: absolute;
+}
+
+.l .p2 {
+    background-color: #F5C443;
+    width: 1em;
+    height: 2em;
+    top: 2.5em;
+    right: 0em;
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+.o {
+    position: absolute;
+    margin-top: 9em;
+    margin-left: -.5em;
+    animation-name: spino;
+    animation-duration: 4000ms;
+    animation-delay: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.o .p1 {
+    background-color: #3F4C4F;
+    width: 2em;
+    height: 2em;
+}
+
+/* animation */
+
+@keyframes spinz {
+    0% {
+        transform: scale(1, 1) rotate(90deg);
+    }
+    10% {
+        transform: scale(.8, .8);
+    }
+    40% {
+        transform: rotate(90deg);
+    }
+    70% {
+        transform: rotate(450deg);
+    }
+    100% {
+        transform: rotate(450deg);
+    }
+}
+
+@keyframes spinl {
+    0% {
+        transform: scale(1, 1) rotate(0deg);
+    }
+    40% {
+        transform: scale(.8, .8);
+    }
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+    60% {
+        transform: scale(.8, .8);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes spini {
+    0% {
+        transform: scale(1, 1) rotate(0deg);
+    }
+    70% {
+        transform: skew(0deg,0deg);
+    }
+    80% {
+        transform: skew(15deg,15deg);
+    }
+    90% {
+        transform: skew(-15deg,-15deg);
+    }
+    100% {
+        transform: skew(0deg, 0deg)
+    }
+}
+
+@keyframes spino {
+    0% {
+        transform: scale(1, 1) rotate(90deg);
+    }
+    10% {
+        transform: scale(.8, .8);
+    }
+    40% {
+        transform: rotate(90deg);
+    }
+    70% {
+        transform: rotate(450deg);
+    }
+    100% {
+        transform: rotate(450deg);
+    }
+}
