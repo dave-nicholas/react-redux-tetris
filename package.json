@@ -2,7 +2,7 @@
 	"name": "react-redux-tetris",
 	"version": "0.6.0",
 	"private": true,
-	"homepage": "https://react-redux-tetris.github.io",
+	"homepage": "https://dave-nicholas.github.io/react-redux-tetris/",
 	"dependencies": {
 		"material-ui": "^1.0.0-beta.18",
 		"material-ui-icons": "^1.0.0-beta.17",

@@ -60,14 +60,14 @@ const App = ({ push, classes }) => {
           <Grid container justify="center" spacing={0}>
             <Fragment forRoute="/">
               <div>
-                <Fragment forRoute="/">
-                  <SplashScreen />
-                </Fragment>
                 <Fragment forRoute="/game">
                   <Game />
                 </Fragment>
                 <Fragment forRoute="/submit-score">
                   <SubmitScore />
+                </Fragment>
+                <Fragment forRoute="/">
+                  <SplashScreen />
                 </Fragment>
               </div>
             </Fragment>
