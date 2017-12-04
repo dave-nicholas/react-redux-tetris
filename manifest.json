@@ -1,0 +1,13 @@
+{
+	"short_name": "react-redux-tetris",
+	"name": "React Redux Tetris",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "192x192",
+			"type": "image/png"
+		}
+	],
+	"start_url": "./index.html",
+	"display": "standalone"
+}
