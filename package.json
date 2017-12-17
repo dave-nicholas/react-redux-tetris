@@ -27,6 +27,9 @@
 		"deploy": "gh-pages -d build"
 	},
 	"devDependencies": {
+		"enzyme": "^3.2.0",
+		"enzyme-adapter-react-16": "^1.1.0",
+		"enzyme-to-json": "^3.3.0",
 		"gh-pages": "^1.0.0",
 		"prettier-eslint": "^8.2.1"
 	}
